@@ -1,0 +1,14 @@
+
+<div class="container">
+  <h1>Games#new</h1>
+  <p>Find me in app/views/games/new.html.erb</p>
+  <ul class="list-group list-group-horizontal">
+  <% @letters.each do |letter| %>
+  <li class="list-group-item"><%= letter %></li>
+  <% end %>
+  </ul>
+  <form action="" class="form-group">
+    <input type="text" name="game">
+    <input type="submit" class="btn btn-success btn-md">
+  </form>
+</div>
